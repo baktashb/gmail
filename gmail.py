@@ -134,6 +134,8 @@ def main():
         print('from:', msg_from)
         print('subject:', msg_sbj)
 
+        parseMsgInfo(msg_from, msg_sbj, msg_bdy)
+
         # Archive the message TODO: Enable when ready!!!
         # archiveMsg(service, user_id, msg_id)
 
